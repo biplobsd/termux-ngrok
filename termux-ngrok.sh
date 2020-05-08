@@ -1,7 +1,7 @@
 #!/bin/dash
 # Desenvolvido por Tchelo Noob
 atualizar='\033[1;32m'
-echo "$Идёт установка..."
+echo "Идёт установка..."
 apt update && upgrade -y
 apt install -y wget
 clear
